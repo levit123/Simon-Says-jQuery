@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Simon Says - Made With jQuery</title>
+	<meta name="description" content="Let's Play Simon Says">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="game-over">
+	<div class="container">
+		<p id="level">Level 1</p>
+		<div class="controls">
+			<div>
+				<p class="console"></p><button id="start">Start Game!</button>
+			</div><br>
+
+		</div>
+		<div id="colors">
+			<div class="color-container" id="red"></div>
+			<div class="color-container" id="green"></div>
+			<div class="color-container" id="blue"></div>
+			<div class="color-container" id="yellow"></div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+	<script src="./js/theGameRules.js"></script>
+</body>
+</html>
