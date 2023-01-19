@@ -1,0 +1,91 @@
+html {
+	background-color: rgba(100, 100, 100, .5);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+	position:  relative;
+	width: 630px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+	font-family:  'Courier New', Courier, monospace;
+	border-radius:  10px;
+}
+
+p {
+	color:  white;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.console {
+	font-size: 18px;
+}
+
+#colors {
+	width: 630px;
+	height: 630px;
+	z-index: 0;
+	background-color: #000;
+	border-radius: 310px;
+	margin-top: 50px;
+}
+
+.color-container {
+	cursor: auto;
+	font-size: 30px;
+	z-index: 1;
+	height: 300px;
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+#red {
+	background-color: red;
+	border-top-left-radius: 300px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+#green {
+	background-color: green;
+	border-top-right-radius: 300px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#blue {
+	background-color: blue;
+	border-bottom-left-radius: 300px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#yellow {
+	background-color: yellow;
+	border-bottom-right-radius: 300px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#green:hover,
+#red:hover,
+#yellow:hover,
+#blue:hover {
+	opacity: .5;
+}
+
+p#start { cursor: pointer; color: blue; }
+p#start:hover { text-decoration: underline; }
+.playing .color-container {
+	cursor: pointer;
+}
+
+.game-over .color-container {
+	opacity: 0.5;
+}
